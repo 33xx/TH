@@ -20,7 +20,7 @@ from . import mention
 
 plugin_category = "utils"
 
-# كتـابة وتعـديل:  @RR9R7
+# كتـابة وتعـديل:  @hvvhh
 
 
 @jmthon.ar_cmd(
@@ -32,14 +32,14 @@ async def amireallyalive(event):
     reply_to_id = await reply_id(event)
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await edit_or_reply(event, "** ⌯︙يتـم التـأكـد انتـظر قليلا رجاءا**")
+    await edit_or_reply(event, "** ♰︙يتـم التـأكـد انتـظر قليلا رجاءا**")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  - "
     ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** بـوت ريـك يعـمل بنـجـاح **"
     RR7_IMG = (
-        gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/8819dc0795f00beb8c807.jpg"
+        gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/4e950e66f1400d97a177e.jpg"
     )
     jmthon_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = jmthon_caption.format(
@@ -74,10 +74,12 @@ async def amireallyalive(event):
 
 
 temp = """- {ALIVE_TEXT}
-
+— — — — — — — — —— — — — — — — — —
 **{EMOJI} قاعدۿ البيانات :♰** تعمل بنـجاح
 **{EMOJI} أصـدار التـيليثون :♰** `{telever}`
 **{EMOJI} أصـدار ريـك :♰** `{jmver}`
 **{EMOJI} أصدار البـايثون :♰** `{pyver}`
 **{EMOJI} الوقـت :♰** `{uptime}`
-**{EMOJI} المسـتخدم:♰** {mention}"""
+**{EMOJI} المسـتخدم:♰** {mention}
+— — — — — — — — —— — — — — — — — —
+Developers: @HvvHH"""
