@@ -7,7 +7,7 @@ from .core.logger import logging
 from .core.session import jmthon
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
-__version__ = "4.0.0"
+__version__ = "7.0.2"
 __license__ = "كـتابة وتـعديل فريـق ريـك"
 __author__ = "ريـك <https://T.ME/NNNUU>"
 __copyright__ = "REK TEAM (C) 2020 - 2021  " + __author__
@@ -24,7 +24,7 @@ LEO = "1397042354"
 RAZAN = "1397042354"
 JASEM = "1450865400"
 
-if Config.UPSTREAM_REPO == "rek":
+if Config.UPSTREAM_REPO == "Rick":
     UPSTREAM_REPO_URL = "https://github.com/33xx/th"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
