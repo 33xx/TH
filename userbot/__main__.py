@@ -15,7 +15,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("NNNUU")
+LOGS = logging.getLogger("HvvHH")
 
 print(userbot.__copyright__)
 print("Licensed under the terms of the " + userbot.__license__)
@@ -23,9 +23,9 @@ print("Licensed under the terms of the " + userbot.__license__)
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("Starting Userbot")
+    LOGS.info("- بدء تحميل")
     jmthon.loop.run_until_complete(setup_bot())
-    LOGS.info("TG Bot Startup Completed")
+    LOGS.info("- انتهاء تحميل")
 except Exception as e:
     LOGS.error(f"{str(e)}")
     sys.exit()
@@ -47,13 +47,11 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
-    print("⌯︙بـوت ريـك يعـمل بـنجاح ")
-    print(
-        f"يجـب تفـعيل وضع الأنلايـن ثم أرسـل {cmdhr}فحص لـرؤيـة اذا كـان البوت شـغال\
-        \nللمسـاعدة تواصـل  https://t.me/k4kk44"
-    )
-    print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
+    print('- بوت ريـك يعمـل بنجـاح 💸.')
+    print('— — — — — — — — — — — — — — — — — —')
+    print('- للتاكد من البوت انه يعمل ارسل .فحص 💸.')
+    print('— — — — — — — — — — — — — — — — — —')
+    print('- لحلول المشاكل راسلني : @HvvHH 💸.')
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
