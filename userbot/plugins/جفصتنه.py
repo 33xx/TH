@@ -17,7 +17,7 @@ PING_PIC = os.environ.get("PING_PIC") or (
     "https://telegra.ph/file/29b009fcbccf186a2899e.mp4"
 )
 
-JM_TXT = os.environ.get("PING_TEXT") or "𝗡𝗘𝗪 𝗦𝗧𝗬𝗟𝗘 🔥"
+JM_TXT = os.environ.get("PING_TEXT") or "- ستايل عضروطي ⚙."
 
 
 @jmthon.ar_cmd(
@@ -36,12 +36,12 @@ async def _(event):
         return
     reply_to_id = await reply_id(event)
     start = datetime.now()
-    cat = await edit_or_reply(event, "<b><i>  𝗡𝗘𝗪 𝗦𝗧𝗬𝗟𝗘 🔥  </b></i>", "html")
+    cat = await edit_or_reply(event, "<b><i>- Rick</b></i>", "html")
     end = datetime.now()
     await cat.delete()
     (end - start).microseconds / 1000
     if PING_PIC:
-        caption = f"<b><i>{JM_TXT}<i><b>\n<code> 𝒉𝒂𝒆𝒂𝒐𝒚 : @B3B3P"
+        caption = f"<b><i>{JM_TXT}<i><b>\n<code>t: @HvvHH"
         await event.client.send_file(
             event.chat_id,
             PING_PIC,
