@@ -4,7 +4,7 @@ from Jmthon.razan.resources.mybot import *
 
 from ..Config import Config
 
-ROZ_PIC = "https://telegra.ph/file/31918f84ce9a3fdb84ec9.jpg"
+ROZ_PIC = "https://telegra.ph/file/4e950e66f1400d97a177e.jpg"
 
 if Config.TG_BOT_USERNAME is not None and tgbot is not None:
 
@@ -18,7 +18,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             buttons = [
                 [
                     Button.url("♰ قناتنا ♰", "https://t.me/k4kk44"),
-                    Button.url("♰ مطورين ♰", "https://t.me/nnnuu"),
+                    Button.url("♰ مطورين ♰", "https://t.me/HvvHH"),
                 ]
             ]
             if ROZ_PIC and ROZ_PIC.endswith((".jpg", ".png", "gif", "mp4")):
