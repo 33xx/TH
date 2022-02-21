@@ -14,7 +14,7 @@ except:
 plugin_category = "tools"
 
 PING_PIC = os.environ.get("PING_PIC") or (
-    "https://telegra.ph/file/29b009fcbccf186a2899e.mp4"
+    "https://telegra.ph/file/8a1e069e71e1f76e582eb.mp4"
 )
 
 JM_TXT = os.environ.get("PING_TEXT") or "- ستايل عضروطي ⚙."
