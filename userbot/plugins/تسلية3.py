@@ -53,7 +53,7 @@ async def _(event):
 async def _(event):
     "animation command"
     event = await edit_or_reply(event, "`...مطورين`")
-    deq = deque(list("♰♰♰@nnnuu♰♰♰♰"))
+    deq = deque(list("♰♰♰@HvvHH♰♰♰♰"))
     for _ in range(999):
         await asyncio.sleep(0.3)
         await event.edit("".join(deq))
