@@ -65,7 +65,7 @@ async def fetch_info(replied_user, event):
     caption += f"<b>- 𝘴𝘶𝘣𝘴𝘤𝘳𝘪𝘣𝘦𝘳 𝘨𝘳𝘰𝘶𝘱𝘴 ♰:</b> {common_chat}\n"
     caption += f"<b>- 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘰𝘳 ♰:</b> "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>\n'
-    caption += f"<b>- 𝘴𝘰𝘶𝘳𝘤𝘦 ♰:</b> @nnNuu\n"
+    caption += f"<b>- 𝘴𝘰𝘶𝘳𝘤𝘦 ♰:</b> @HvvHH\n"
     caption += f"✛━━━━━━━━━━━━━✛"
     return photo, caption
 
