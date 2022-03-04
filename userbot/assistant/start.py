@@ -52,8 +52,8 @@ async def start(event):
             message=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("♰ تنصيب ريك ♰", data="https://n9.cl/reko0")],
-                [Button.url("♰ مطور ♰", "https://t.me/nnnuu")],
+                [custom.Button.inline("♰ تنصيب ريك ♰", data="deploy")],
+                [Button.url("♰ مطور ♰", "https://t.me/HvvHH")],
             ],
         )
 
